@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class UnitTest {
 
     private final Mock mock = new Mock();
-    private final String[] errorMessages = {"Error! Wrong number!", "Error! There is no input!",
+    private final String[] errorMessages = {"Error! Wrong number!",
     "Error! I can't divide to \"0\"!"};
     private final CalculatorPresenter calculatorPresenter = new CalculatorPresenterImplement(mock);
 
@@ -15,7 +15,7 @@ class UnitTest {
         mock.a = null;
         mock.b = String.valueOf(Math.random());
         calculatorPresenter.onPlusClicked();
-        assertEquals(errorMessages[1], mock.error);
+        assertEquals(errorMessages[0], mock.error);
     }
 
     @Test
@@ -23,7 +23,7 @@ class UnitTest {
         mock.a = String.valueOf(Math.random());
         mock.b = null;
         calculatorPresenter.onPlusClicked();
-        assertEquals(errorMessages[1], mock.error);
+        assertEquals(errorMessages[0], mock.error);
     }
 
     @Test
@@ -31,7 +31,7 @@ class UnitTest {
         mock.a = null;
         mock.b = null;
         calculatorPresenter.onPlusClicked();
-        assertEquals(errorMessages[1], mock.error);
+        assertEquals(errorMessages[0], mock.error);
     }
 
     @Test
@@ -39,7 +39,7 @@ class UnitTest {
         mock.a = null;
         mock.b = String.valueOf(Math.random());
         calculatorPresenter.onMinusClicked();
-        assertEquals(errorMessages[1], mock.error);
+        assertEquals(errorMessages[0], mock.error);
     }
 
     @Test
@@ -47,7 +47,7 @@ class UnitTest {
         mock.a = String.valueOf(Math.random());
         mock.b = null;
         calculatorPresenter.onMinusClicked();
-        assertEquals(errorMessages[1], mock.error);
+        assertEquals(errorMessages[0], mock.error);
     }
 
     @Test
@@ -55,7 +55,7 @@ class UnitTest {
         mock.a = null;
         mock.b = String.valueOf(Math.random());
         calculatorPresenter.onMultiplyClicked();
-        assertEquals(errorMessages[1], mock.error);
+        assertEquals(errorMessages[0], mock.error);
     }
 
     @Test
@@ -63,7 +63,7 @@ class UnitTest {
         mock.a = String.valueOf(Math.random());
         mock.b = null;
         calculatorPresenter.onMultiplyClicked();
-        assertEquals(errorMessages[1], mock.error);
+        assertEquals(errorMessages[0], mock.error);
     }
 
     @Test
@@ -71,7 +71,7 @@ class UnitTest {
         mock.a = null;
         mock.b = String.valueOf(Math.random());
         calculatorPresenter.onDivideClicked();
-        assertEquals(errorMessages[1], mock.error);
+        assertEquals(errorMessages[0], mock.error);
     }
 
     @Test
@@ -79,7 +79,7 @@ class UnitTest {
         mock.a = String.valueOf(Math.random());
         mock.b = null;
         calculatorPresenter.onDivideClicked();
-        assertEquals(errorMessages[1], mock.error);
+        assertEquals(errorMessages[0], mock.error);
     }
 
     @Test
@@ -87,7 +87,7 @@ class UnitTest {
         mock.a = String.valueOf(Math.random());
         mock.b = String.valueOf(Math.random()*10e-8);
         calculatorPresenter.onDivideClicked();
-        assertEquals(errorMessages[2], mock.error);
+        assertEquals(errorMessages[1], mock.error);
 
     }
 
