@@ -18,8 +18,8 @@ class GUITest {
     private static void init() throws AWTException {
         gui = new View();
         robot = new Robot();
-        argA = Math.random();
-        argB = Math.random();
+        argA = 0.456;
+        argB = 1.45687;
     }
 
     private static void click(JButton button) throws InterruptedException {
@@ -30,7 +30,7 @@ class GUITest {
         robot.mouseMove(p.x + dx, p.y + dy);
         robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-        Thread.sleep(10);
+        Thread.sleep(100);
     }
 
     private void setA(double a) throws InterruptedException {
