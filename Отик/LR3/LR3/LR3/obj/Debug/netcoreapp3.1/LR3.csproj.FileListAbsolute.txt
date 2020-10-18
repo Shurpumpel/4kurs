@@ -1,0 +1,13 @@
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\Отик\LR3\LR3\LR3\bin\Debug\netcoreapp3.1\LR3.exe
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\Отик\LR3\LR3\LR3\bin\Debug\netcoreapp3.1\LR3.deps.json
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\Отик\LR3\LR3\LR3\bin\Debug\netcoreapp3.1\LR3.runtimeconfig.json
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\Отик\LR3\LR3\LR3\bin\Debug\netcoreapp3.1\LR3.runtimeconfig.dev.json
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\Отик\LR3\LR3\LR3\bin\Debug\netcoreapp3.1\LR3.dll
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\Отик\LR3\LR3\LR3\bin\Debug\netcoreapp3.1\LR3.pdb
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\Отик\LR3\LR3\LR3\obj\Debug\netcoreapp3.1\LR3.csprojAssemblyReference.cache
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\Отик\LR3\LR3\LR3\obj\Debug\netcoreapp3.1\LR3.AssemblyInfoInputs.cache
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\Отик\LR3\LR3\LR3\obj\Debug\netcoreapp3.1\LR3.AssemblyInfo.cs
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\Отик\LR3\LR3\LR3\obj\Debug\netcoreapp3.1\LR3.csproj.CoreCompileInputs.cache
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\Отик\LR3\LR3\LR3\obj\Debug\netcoreapp3.1\LR3.dll
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\Отик\LR3\LR3\LR3\obj\Debug\netcoreapp3.1\LR3.pdb
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\Отик\LR3\LR3\LR3\obj\Debug\netcoreapp3.1\LR3.genruntimeconfig.cache

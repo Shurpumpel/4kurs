@@ -1,3 +1,4 @@
 ﻿  Source.cpp
-C:\Users\Shurpumpel\Desktop\aaaa\Project1\Project1\Source.cpp(47,8): warning C4101: flag: неиспользованная локальная переменная
-  Project1.vcxproj -> C:\Users\Shurpumpel\Desktop\aaaa\Project1\Debug\Project1.exe
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\MPI\3\Project1\Project1\Source.cpp(77,9): warning C4101: bigarray: неиспользованная локальная переменная
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\MPI\3\Project1\Project1\Source.cpp(78,13): warning C4101: Status: неиспользованная локальная переменная
+  Project1.vcxproj -> C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\MPI\3\Project1\Debug\Project1.exe

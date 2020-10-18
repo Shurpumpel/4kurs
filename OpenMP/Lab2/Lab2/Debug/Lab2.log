@@ -1,0 +1,7 @@
+﻿  Lab2.cpp
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\OpenMP\Lab2\Lab2\Lab2.cpp(8,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\OpenMP\Lab2\Lab2\Lab2.cpp(25,17): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\OpenMP\Lab2\Lab2\Lab2.cpp(42,10): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "3" имеет тип "__int64"
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\OpenMP\Lab2\Lab2\Lab2.cpp(42,10): message : рекомендуется использовать "%lld" в строке форматирования
+C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\OpenMP\Lab2\Lab2\Lab2.cpp(42,10): message : рекомендуется использовать "%I64d" в строке форматирования
+  Lab2.vcxproj -> C:\Users\alfdt\OneDrive\Документы\УЧЕБА\Labs\4kurs\OpenMP\Lab2\Debug\Lab2.exe
