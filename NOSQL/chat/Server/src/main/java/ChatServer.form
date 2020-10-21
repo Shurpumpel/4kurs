@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ChatServer">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="66105" binding="southpanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4ee79" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties/>
+          </component>
+          <component id="49635" class="javax.swing.JButton" binding="startButton" default-binding="true">
+            <constraints border-constraint="East"/>
+            <properties>
+              <text value="start"/>
+            </properties>
+          </component>
+          <component id="d7124" class="javax.swing.JLabel" binding="insertPortLabel">
+            <constraints border-constraint="West"/>
+            <properties>
+              <text value="Insert port: "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f3e07" binding="northPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="63f92" class="javax.swing.JLabel">
+            <constraints border-constraint="West"/>
+            <properties>
+              <text value="Enter id"/>
+            </properties>
+          </component>
+          <component id="7ea90" class="javax.swing.JTextField" binding="idToDeleteFromLogs">
+            <constraints border-constraint="Center"/>
+            <properties/>
+          </component>
+          <component id="84997" class="javax.swing.JButton" binding="deleteButton">
+            <constraints border-constraint="East"/>
+            <properties>
+              <text value="Delete"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="2b1db">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9ad0d" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
