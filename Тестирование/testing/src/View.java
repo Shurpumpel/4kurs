@@ -15,6 +15,7 @@ public class View extends JFrame implements CalculatorView {
     private int width = 400;
     private int height = 200;
     private CalculatorPresenter calculatorPresenter;
+    public ErrorMessage errorMessage;
 
 
     public static void main(String[] args) {
@@ -66,7 +67,8 @@ public class View extends JFrame implements CalculatorView {
 
     @Override
     public void displayError(String message) {
-        this.result.setText(String.valueOf(message));
+        this.errorMessage = new ErrorMessage(message);
+        errorMessage.setVisible(true);
     }
 
     @Override

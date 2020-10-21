@@ -81,36 +81,44 @@ class GUITest {
     @Test
     public void testNullPlusB() throws InterruptedException {
         gui.argA.setText(null);
+        gui.errorMessage = null;
         setB(argB);
         click(gui.plus);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
     @Test
     public void testNullMinusB() throws InterruptedException {
         gui.argA.setText(null);
+        gui.errorMessage = null;
         setB(argB);
         click(gui.minus);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
     @Test
     public void testNullsMultipleB() throws InterruptedException {
         gui.argA.setText(null);
+        gui.errorMessage = null;
         setB(argB);
         click(gui.multiple);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
     @Test
     public void testNullDivideB() throws InterruptedException {
         gui.argA.setText(null);
+        gui.errorMessage = null;
         setB(argB);
         click(gui.divide);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
@@ -118,8 +126,10 @@ class GUITest {
     public void testAPlusNull() throws InterruptedException {
         setA(argA);
         gui.argB.setText(null);
+        gui.errorMessage = null;
         click(gui.plus);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
@@ -127,8 +137,10 @@ class GUITest {
     public void testAMinusNull() throws InterruptedException {
         setA(argA);
         gui.argB.setText(null);
+        gui.errorMessage = null;
         click(gui.minus);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
@@ -136,8 +148,10 @@ class GUITest {
     public void testAMultipleNull() throws InterruptedException {
         setA(argA);
         gui.argB.setText(null);
+        gui.errorMessage = null;
         click(gui.multiple);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.multiple);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
@@ -145,8 +159,10 @@ class GUITest {
     public void testADivideNull() throws InterruptedException {
         setA(argA);
         gui.argB.setText(null);
+        gui.errorMessage = null;
         click(gui.divide);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
@@ -154,8 +170,10 @@ class GUITest {
     public void testStringPlusB() throws InterruptedException {
         gui.argA.setText("some string");
         setB(argB);
+        gui.errorMessage = null;
         click(gui.plus);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
@@ -163,8 +181,10 @@ class GUITest {
     public void testStringMinusB() throws InterruptedException {
         gui.argA.setText("some string");
         setB(argB);
+        gui.errorMessage = null;
         click(gui.minus);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
@@ -172,8 +192,10 @@ class GUITest {
     public void testStringMultipleB() throws InterruptedException {
         gui.argA.setText("some string");
         setB(argB);
+        gui.errorMessage = null;
         click(gui.multiple);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
@@ -181,8 +203,10 @@ class GUITest {
     public void testStringDivideB() throws InterruptedException {
         gui.argA.setText("some string");
         setB(argB);
+        gui.errorMessage = null;
         click(gui.divide);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
@@ -190,8 +214,10 @@ class GUITest {
     public void testAPlusString() throws InterruptedException {
         setA(argA);
         gui.argB.setText("some text");
+        gui.errorMessage = null;
         click(gui.plus);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
@@ -199,8 +225,10 @@ class GUITest {
     public void testAMinusString() throws InterruptedException {
         setA(argA);
         gui.argB.setText("some text");
+        gui.errorMessage = null;
         click(gui.minus);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
@@ -208,8 +236,10 @@ class GUITest {
     public void testAMultipleString() throws InterruptedException {
         setA(argA);
         gui.argB.setText("some text");
+        gui.errorMessage = null;
         click(gui.multiple);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
@@ -217,8 +247,10 @@ class GUITest {
     public void testADivideString() throws InterruptedException {
         setA(argA);
         gui.argB.setText("some text");
+        gui.errorMessage = null;
         click(gui.divide);
-        assertEquals(errorMessages[0], gui.result.getText());
+        assertNotNull(gui.errorMessage);
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 
@@ -226,8 +258,10 @@ class GUITest {
     public void DivideByZero() throws InterruptedException {
         setA(argA);
         setB(0.0);
+        gui.errorMessage = null;
         click(gui.divide);
-        assertEquals(errorMessages[1], gui.result.getText());
+        assertEquals("Error! I can't divide to \"0\"!", gui.errorMessage.label.getText());
+        click(gui.errorMessage.buttonOK);
         Thread.sleep(100);
     }
 

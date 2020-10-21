@@ -13,7 +13,9 @@ public class CalculatorPresenterImplement implements CalculatorPresenter {
             double a = Double.parseDouble(calculatorView.getFirstArgumentAsString());
             double b = Double.parseDouble(calculatorView.getSecondArgumentAsString());
             calculatorView.printResult(calculator.sum(a,b));
-        }catch (NumberFormatException | NullPointerException e){
+        }catch ( NullPointerException e){
+            calculatorView.displayError("Error! Null argument!");
+        }catch (NumberFormatException e){
             calculatorView.displayError("Error! Wrong number!");
         }
     }
@@ -24,7 +26,9 @@ public class CalculatorPresenterImplement implements CalculatorPresenter {
             double a = Double.parseDouble(calculatorView.getFirstArgumentAsString());
             double b = Double.parseDouble(calculatorView.getSecondArgumentAsString());
             calculatorView.printResult(calculator.subtract(a, b));
-        }catch (NumberFormatException | NullPointerException e){
+        }catch ( NullPointerException e){
+            calculatorView.displayError("Error! Null argument!");
+        }catch (NumberFormatException e){
             calculatorView.displayError("Error! Wrong number!");
         }
     }
@@ -35,7 +39,9 @@ public class CalculatorPresenterImplement implements CalculatorPresenter {
             double a = Double.parseDouble(calculatorView.getFirstArgumentAsString());
             double b = Double.parseDouble(calculatorView.getSecondArgumentAsString());
             calculatorView.printResult(calculator.divide(a, b));
-        }catch (NumberFormatException | NullPointerException e){
+        }catch ( NullPointerException e){
+            calculatorView.displayError("Error! Null argument!");
+        }catch (NumberFormatException e){
             calculatorView.displayError("Error! Wrong number!");
         } catch (ArithmeticException e){
             calculatorView.displayError("Error! I can't divide to \"0\"!");
@@ -48,7 +54,9 @@ public class CalculatorPresenterImplement implements CalculatorPresenter {
             double a = Double.parseDouble(calculatorView.getFirstArgumentAsString());
             double b = Double.parseDouble(calculatorView.getSecondArgumentAsString());
             calculatorView.printResult(calculator.multiply(a, b));
-        }catch (NumberFormatException | NullPointerException e){
+        }catch ( NullPointerException e){
+            calculatorView.displayError("Error! Null argument!");
+        }catch (NumberFormatException e){
             calculatorView.displayError("Error! Wrong number!");
         }
     }
