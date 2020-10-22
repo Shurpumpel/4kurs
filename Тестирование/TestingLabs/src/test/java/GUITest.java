@@ -1,3 +1,4 @@
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -5,8 +6,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.InputEvent;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static junit.framework.TestCase.assertEquals;
+import static junit.framework.TestCase.assertNotNull;
+
 
 class GUITest {
     private static View gui;

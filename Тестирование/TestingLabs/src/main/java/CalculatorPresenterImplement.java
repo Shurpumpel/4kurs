@@ -1,0 +1,63 @@
+public class CalculatorPresenterImplement implements CalculatorPresenter {
+    private final Calculator calculator;
+    private final CalculatorView calculatorView;
+
+    public CalculatorPresenterImplement(CalculatorView calculatorView) {
+        this.calculatorView = calculatorView;
+        calculator = new CalculatorImplement();
+    }
+
+    @Override
+    public void onPlusClicked() {
+        try {
+            double a = Double.parseDouble(calculatorView.getFirstArgumentAsString());
+            double b = Double.parseDouble(calculatorView.getSecondArgumentAsString());
+            calculatorView.printResult(calculator.sum(a,b));
+        }catch ( NullPointerException e){
+            calculatorView.displayError("Error! Null argument!");
+        }catch (NumberFormatException e){
+            calculatorView.displayError("Error! Wrong number!");
+        }
+    }
+
+    @Override
+    public void onMinusClicked() {
+        try {
+            double a = Double.parseDouble(calculatorView.getFirstArgumentAsString());
+            double b = Double.parseDouble(calculatorView.getSecondArgumentAsString());
+            calculatorView.printResult(calculator.subtract(a, b));
+        }catch ( NullPointerException e){
+            calculatorView.displayError("Error! Null argument!");
+        }catch (NumberFormatException e){
+            calculatorView.displayError("Error! Wrong number!");
+        }
+    }
+
+    @Override
+    public void onDivideClicked() {
+        try {
+            double a = Double.parseDouble(calculatorView.getFirstArgumentAsString());
+            double b = Double.parseDouble(calculatorView.getSecondArgumentAsString());
+            calculatorView.printResult(calculator.divide(a, b));
+        }catch ( NullPointerException e){
+            calculatorView.displayError("Error! Null argument!");
+        }catch (NumberFormatException e){
+            calculatorView.displayError("Error! Wrong number!");
+        } catch (ArithmeticException e){
+            calculatorView.displayError("Error! I can't divide to \"0\"!");
+        }
+    }
+
+    @Override
+    public void onMultiplyClicked() {
+        try {
+            double a = Double.parseDouble(calculatorView.getFirstArgumentAsString());
+            double b = Double.parseDouble(calculatorView.getSecondArgumentAsString());
+            calculatorView.printResult(calculator.multiply(a, b));
+        }catch ( NullPointerException e){
+            calculatorView.displayError("Error! Null argument!");
+        }catch (NumberFormatException e){
+            calculatorView.displayError("Error! Wrong number!");
+        }
+    }
+}
