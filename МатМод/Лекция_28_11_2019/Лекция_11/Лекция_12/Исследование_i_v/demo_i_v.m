@@ -1,0 +1,9 @@
+x=0:.01:1;
+%plot(x,i_v(x,.001,.9))
+plot(x,i_v(x,.001,.9))
+%pause
+figure
+plot(x,i_v(x,.01,.9))
+%pause
+figure
+plot(x,i_v(x,.1,.9))

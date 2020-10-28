@@ -1,0 +1,5 @@
+>> clear
+>> [T,Y]=ode23(@yp2,[0,pi],[1;0]);
+>> figure,plot(T,Y),grid
+>> figure,plot(T,Y(:,1),T,cos(T),'r+'),grid
+>> 

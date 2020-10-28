@@ -18,16 +18,20 @@ public class Main {
 
             stateMachine.getDFAFromNFA();
 
+
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Enter expression to check");
-            String expression = reader.readLine();
-            boolean res = stateMachine.isExpressionCorrect(expression);
-            if (res)
-                System.out.println("Expression correct!");
-            else
-                System.out.println("Incorrect expression. Error position: " + stateMachine.errorPos);
 
-            reader.close();
+            stateMachine.printAutomat();
+
+            while(true) {
+                String expression = reader.readLine();
+                boolean res = stateMachine.isExpressionCorrect(expression);
+                if (res)
+                    System.out.println("Expression correct!");
+                else
+                    System.out.println("Incorrect expression. Error position: " + stateMachine.errorPos);
+            }
         }catch (Exception e){
             System.out.println(e.getMessage());
         }

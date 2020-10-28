@@ -1,12 +1,14 @@
 package com.company;
 
-import java.util.IllegalFormatException;
-
 public class OneRule {
     public int state;
     public String symbol;
     public int nextState;
     boolean isNextTerminal;
+
+    public OneRule(int state) {
+        this.state = state;
+    }
 
     public OneRule(String str){
         if (str.charAt(0) != 'q' && str.charAt(0) != 'Q')

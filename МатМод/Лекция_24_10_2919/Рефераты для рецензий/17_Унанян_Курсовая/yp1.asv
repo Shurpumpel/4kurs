@@ -1,0 +1,6 @@
+function yp=yp1(t,y)
+global a b c  
+yp=[y(2);(a+m)*y(2)-a*y(1)+n];
+end
+
+

@@ -1,0 +1,10 @@
+function NpM = NpM(t,N )
+%UNTITLED Summary of this function goes here
+%   Detailed explanation goes here
+%alfa=3;
+betta=2;
+NpM=(alfa(t,N)-betta).*N;
+function alfa = alfa(t,N)
+%UNTITLED2 Summary of this function goes here
+%   Detailed explanation goes here
+alfa=3-1/(2-sin(1+t.^2));%-1/2;

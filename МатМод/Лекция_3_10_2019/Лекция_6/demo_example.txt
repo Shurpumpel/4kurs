@@ -1,0 +1,26 @@
+>> [T,Y]=ode23(@yp1,[0,pi],1);
+>> plot(T,Y,'r*',T,cos(T),'g-'),grid
+>> figure,plot(T,Y-cos(T),'r-'),grid
+>> plot(T,Y-cos(T),'r*'),grid
+>> [TT,YY]=ode45(@yp1,[0,pi],1);
+>> figure,plot(TT,YY,'r*',TT,cos(TT),'g-'),grid
+>> figure,plot(TT,YY-cos(TT),'r*'),grid
+>> clc
+>>clear
+для задачи Коши второго порядка
+>> [TT,YY]=ode45(@yp2,[0,pi],[1 0]);
+>> figure,plot(TT,YY,'r*',TT,cos(TT),'g-'),grid
+>> figure,plot(TT,YY(:,1),'r*',TT,cos(TT),'g-'),grid
+>> 
+> clear
+>> [t,N]=ode45(@NpM,[0,5],2]);
+??? [t,N]=ode45(@NpM,[0,5],2]);
+                            |
+Error: Unbalanced or unexpected
+parenthesis or bracket.
+ 
+>> [t,N]=ode45(@NpM,[0,5],2);
+>> figure,plot(t,N),grid
+>> [t,N]=ode45(@NpM,[0,5],2);
+>> figure,plot(t,N),grid
+>> 

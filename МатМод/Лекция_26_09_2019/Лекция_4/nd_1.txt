@@ -1,0 +1,94 @@
+    ----------------------------------------------------------
+        Your MATLAB license will expire in 44 days.
+        Please contact your system administrator or
+        The MathWorks to renew this license.
+    ----------------------------------------------------------
+>> x=1:20;y=x.^2;
+>> plot(x,y)
+>> ye=y.*(1+.1*randn(20,1))
+??? Error using ==> times
+Matrix dimensions must agree.
+ 
+>> x=x';y=y';ye=y.*(1+.1*randn(20,1))
+
+ye =
+
+    1.0671
+    3.5170
+    9.6455
+   18.6084
+   26.2222
+   39.7249
+   52.5617
+   62.0580
+   83.3804
+   92.1272
+  131.7496
+  127.4822
+  150.9361
+  180.1338
+  158.7536
+  292.8225
+  298.3980
+  299.5403
+  410.4678
+  331.5393
+
+>> x=x';y=y';ye=y.*(1+.1*randn(20,1));
+??? Error using ==> times
+Matrix dimensions must agree.
+ 
+>> x=x';ye=y.*(1+.1*randn(20,1));
+??? Error using ==> times
+Matrix dimensions must agree.
+ 
+>> x=x';y=y';ye=y.*(1+.1*randn(20,1));
+>> hold
+Current plot held
+>> plot(x',ye,'r*))
+??? plot(x',ye,'r*))
+               |
+Error: A MATLAB string constant is not
+terminated properly.
+ 
+>> plot(x',ye,'r*')
+>> x=x';X=[x.^2 x ones(20,1)]
+
+X =
+
+     1     1     1
+     4     2     1
+     9     3     1
+    16     4     1
+    25     5     1
+    36     6     1
+    49     7     1
+    64     8     1
+    81     9     1
+   100    10     1
+   121    11     1
+   144    12     1
+   169    13     1
+   196    14     1
+   225    15     1
+   256    16     1
+   289    17     1
+   324    18     1
+   361    19     1
+   400    20     1
+
+>> koef=inv(X'*X)*X*ye
+??? Error using ==> mtimes
+Inner matrix dimensions must agree.
+ 
+>> koef=inv(X'*X)*X'*ye
+
+koef =
+
+    0.6199
+    6.2271
+  -16.6494
+
+>> yv=X*koef;
+>> plot(x,yv,'g-'),grid
+>> 

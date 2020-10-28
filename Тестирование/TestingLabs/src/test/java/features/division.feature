@@ -6,7 +6,7 @@ Feature: Div
 
 @positive
 Scenario: Divide two numbers
-	Given I have entered first number 50.0 into the calculator
+	Given I have entered first number 30.0 into the calculator
 	And I have entered second number 70.0 into the calculator
 	When I press divide
 	Then the result should be 0.7142857142857143 on the screen

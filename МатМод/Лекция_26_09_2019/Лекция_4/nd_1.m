@@ -1,0 +1,4 @@
+x=1:20;x=x';
+y=x.^2;
+ye=y.*(1+randn(20,1));
+plot(x,y,'g-',x,ye,'r+'),grid

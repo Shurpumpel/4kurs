@@ -1,0 +1,29 @@
+========
+UPDATING
+========
+Here's how to update without installing.
+- and avoid the pesky toolbar.
+
+1. Download from: http://windjview.sourceforge.net/
+2. Rename to: "WinDjViewer.exe"
+3. Place next to PAF installer, and install
+
+* PAF installer will use your file for installation.
+
+============
+ASSOCIATIONS
+============
+I've associated .djv, .djvu, and .bookmarks.
+
+To associate more is very simple:
+1. Navigate to: App\AppInfo\Launcher
+2. Open WinDjViewPortable.ini with Notepad or any text editor
+
+3. Under [RegistryKeys], add:
+-=HKCU\SOFTWARE\Classes\.***
+
+4. Under [RegistryValueWrite], add:
+HKCU\SOFTWARE\Classes\.***\=REG_SZ:DjVu.Document
+
+5. Replace *** with file type.
+6. Save .INI file.

@@ -1,0 +1,149 @@
+#include <iostream>
+#include <mpi.h>
+using namespace std;
+
+
+struct ComplexMatrix
+{
+	long long  Re;
+	long long Im;
+};
+
+void  mult(struct ComplexMatrix** A, struct ComplexMatrix** B, ComplexMatrix** D, int N)//функция перемножающая две матрицы и возвращающая D
+{
+	ComplexMatrix sum;
+	sum.Re = 0;
+	sum.Im = 0;
+	for (int i = 0; i < N; i++)
+	{
+		for(int j = 0; j<N;j++){
+		sum.Re = 0;
+		sum.Im = 0;
+		for (int k = 0; k < N; k++)
+		{
+			sum.Re = sum.Re + A[i][k].Re * B[k][j].Re - A[i][k].Im * B[k][j].Im;
+			sum.Im = sum.Im + A[i][k].Re * B[k][j].Im + A[i][k].Im * B[k][j].Re;
+		}
+		D[i][j].Re = sum.Re;
+		D[i][j].Im = sum.Im;
+		}
+	}
+}
+
+void printMatr(ComplexMatrix** matr, int N) {
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < N; j++) {
+			cout << matr[i][j].Re << "+" << matr[i][j].Im << +"i" << "\t";
+		}
+		cout << endl;
+	}
+	cout << endl;
+}
+
+int main(int agrc, char* argv[])
+{
+	int N = 3;
+	int A = 5;
+	int ProcNum, ProcRank;
+	MPI_Datatype complex;
+	MPI_Datatype complex_row;
+	MPI_Datatype complex_matrix;
+
+	MPI_Status Status;
+	MPI_Init(&agrc, &argv);
+	MPI_Comm_size(MPI_COMM_WORLD, &ProcNum);
+	MPI_Comm_rank(MPI_COMM_WORLD, &ProcRank);
+
+	MPI_Type_contiguous(2, MPI_INT, &complex);
+	MPI_Type_contiguous(N, complex, &complex_row);
+	MPI_Type_contiguous(N, complex_row, &complex_matrix);
+	MPI_Type_commit(&complex_matrix);
+	int*** matrix = new int** [N];
+	int sentToProc = 1;
+	while (A > 0) {
+		if (ProcRank == 0) {
+			for (int i = 0; i < N; i++)
+			{
+				matrix[i] = new int* [N];
+				for (int j = 0; j < N; j++)
+				{
+					matrix[i][j] = new int[2];
+					for (int k = 0; k < 2; k++)
+					{
+						matrix[i][j][k] = 1 + rand() % 9;
+					}
+				}
+			}
+
+			for (int i = 0; i < N; i++) {
+				for (int j = 0; j < N; j++) {
+					cout << matrix[i][j][0] << "+" << matrix[i][j][1] << +"i" << "\t";
+				}
+				cout << endl;
+			}
+			cout << endl;
+
+			MPI_Send(&matrix, 1, complex_matrix, sentToProc, 0, MPI_COMM_WORLD);
+			sentToProc = (sentToProc + 1) % ProcNum;
+		}
+		else {
+			int*** matr1 = new int** [N];
+			for (int i = 0; i < N; i++)
+			{
+				matr1[i] = new int* [N];
+				for (int j = 0; j < N; j++)
+				{
+					matr1[i][j] = new int[2];
+				}
+			}
+
+			MPI_Recv(&matr1, 1, complex_matrix, 0, MPI_ANY_TAG, MPI_COMM_WORLD, &Status);
+			for (int i = 0; i < N; i++) {
+				for (int j = 0; j < N; j++) {
+					cout << matr1[i][j][0] << "+" << matr1[i][j][1] << +"i" << "\t";
+				}
+				cout << endl;
+			}
+			cout << endl;
+		}
+
+		A--;
+	}
+
+	
+	
+
+	MPI_Type_free(&complex_matrix);
+	MPI_Finalize();
+	/*ComplexMatrix** matr1 = new ComplexMatrix * [N];
+	ComplexMatrix** matr2 = new ComplexMatrix * [N];
+	ComplexMatrix** matr3 = new ComplexMatrix * [N];
+
+	for (int i = 0; i < N; i++) {
+		matr1[i] = new ComplexMatrix[N];
+		matr2[i] = new ComplexMatrix[N];
+		matr3[i] = new ComplexMatrix[N];
+	}*/
+	
+	//for (int i = 0; i < N; i++) {
+	//	for (int j = 0; j < N; j++) {
+	//		matr1[i][j].Re = 1 + rand() % 9;
+	//		matr1[i][j].Im = 1 + rand() % 9;
+	//		matr2[i][j].Re = 1 + rand() % 9;
+	//		matr2[i][j].Im = 1 + rand() % 9;
+	//	}
+	//}
+
+	//printMatr(matr1, N);
+	//printMatr(matr2, N);
+
+	//mult(matr1, matr2, matr3, N);
+
+	//printMatr(matr3, N);
+
+
+
+	return 0;
+}
+
+
