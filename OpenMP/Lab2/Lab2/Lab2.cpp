@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <clocale>
 #include <chrono>
-int NMAX = 50900;
-int LIMIT = 3000;
+int NMAX = 25000;
+int LIMIT = 20000;
 void main()
 {
 	setlocale(LC_ALL, "Russian");
@@ -12,7 +12,10 @@ void main()
 
 
 	//for (int k = 0; k < 10; k++) {
-		//NMAX += 500;  
+		//if (NMAX == LIMIT)
+			//NMAX++;
+		//else
+			//NMAX += 500;  
 		float** a = new float* [NMAX];
 
 		for (int i = 0; i < NMAX; i++)
@@ -25,7 +28,7 @@ void main()
 				a[i][j] = i + j;
 
 		auto start_time = std::chrono::high_resolution_clock::now();
-#pragma omp parallel shared(a) if (NMAX>=LIMIT)
+#pragma omp parallel shared(a) if (NMAX>LIMIT)
 		{
 #pragma omp for private(i,j,sum) 
 			for (i = 0; i < NMAX; i++)
@@ -39,7 +42,7 @@ void main()
 		auto end_time = std::chrono::high_resolution_clock::now();;
 
 		auto time = end_time - start_time;
-		printf("NMAX = %d, LIMIT = %d Время выполнения: %d ms.\n", NMAX, LIMIT, time / std::chrono::milliseconds(1));
+		printf("NMAX = %d, LIMIT = %d Время выполнения: %d s.\n", NMAX, LIMIT, time / std::chrono::seconds(1));
 	//}
 }
 

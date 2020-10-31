@@ -20,11 +20,11 @@ public class Main {
 
 
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-            System.out.println("Enter expression to check");
 
             stateMachine.printAutomat();
 
             while(true) {
+                System.out.println("Enter expression to check");
                 String expression = reader.readLine();
                 boolean res = stateMachine.isExpressionCorrect(expression);
                 if (res)
