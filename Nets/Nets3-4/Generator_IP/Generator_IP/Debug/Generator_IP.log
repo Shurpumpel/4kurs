@@ -1,0 +1,82 @@
+﻿  main.cpp
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(39,1): warning C4005: CREATEPROCESS_MANIFEST_RESOURCE_ID: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(283): message : см. предыдущее определение "CREATEPROCESS_MANIFEST_RESOURCE_ID"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(40,1): warning C4005: MINIMUM_RESERVED_MANIFEST_RESOURCE_ID: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(288): message : см. предыдущее определение "MINIMUM_RESERVED_MANIFEST_RESOURCE_ID"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(222,1): warning C4005: WINAPI_PARTITION_APP: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(157): message : см. предыдущее определение "WINAPI_PARTITION_APP"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(224,1): warning C4005: ISOLATIONAWARE_MANIFEST_RESOURCE_ID: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(284): message : см. предыдущее определение "ISOLATIONAWARE_MANIFEST_RESOURCE_ID"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(313,1): warning C4005: ISOLATIONAWARE_NOSTATICIMPORT_MANIFEST_RESOURCE_ID: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(285): message : см. предыдущее определение "ISOLATIONAWARE_NOSTATICIMPORT_MANIFEST_RESOURCE_ID"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(539,1): warning C4005: MAXIMUM_RESERVED_MANIFEST_RESOURCE_ID: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(289): message : см. предыдущее определение "MAXIMUM_RESERVED_MANIFEST_RESOURCE_ID"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(602,1): warning C4005: RT_MANIFEST: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(282): message : см. предыдущее определение "RT_MANIFEST"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1410,1): warning C4005: _WIN32_WINNT: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sdkddkver.h(217): message : см. предыдущее определение "_WIN32_WINNT"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1475,1): warning C4005: IDI_APPLICATION: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11049): message : см. предыдущее определение "IDI_APPLICATION"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1478,1): warning C4005: IDI_HAND: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11050): message : см. предыдущее определение "IDI_HAND"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1481,1): warning C4005: IDI_QUESTION: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11051): message : см. предыдущее определение "IDI_QUESTION"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1484,1): warning C4005: IDI_EXCLAMATION: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11052): message : см. предыдущее определение "IDI_EXCLAMATION"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1487,1): warning C4005: IDI_ASTERISK: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11053): message : см. предыдущее определение "IDI_ASTERISK"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1489,1): warning C4005: IDI_WINLOGO: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11055): message : см. предыдущее определение "IDI_WINLOGO"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1491,1): warning C4005: IDI_SHIELD: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11058): message : см. предыдущее определение "IDI_SHIELD"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1566,1): warning C4005: HTERROR: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(2569): message : см. предыдущее определение "HTERROR"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1569,1): warning C4005: PWR_FAIL: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(2078): message : см. предыдущее определение "PWR_FAIL"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1570,1): warning C4005: HTTRANSPARENT: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(2570): message : см. предыдущее определение "HTTRANSPARENT"
+  StdAfx.cpp
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(39,1): warning C4005: CREATEPROCESS_MANIFEST_RESOURCE_ID: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(283): message : см. предыдущее определение "CREATEPROCESS_MANIFEST_RESOURCE_ID"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(40,1): warning C4005: MINIMUM_RESERVED_MANIFEST_RESOURCE_ID: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(288): message : см. предыдущее определение "MINIMUM_RESERVED_MANIFEST_RESOURCE_ID"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(222,1): warning C4005: WINAPI_PARTITION_APP: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winapifamily.h(157): message : см. предыдущее определение "WINAPI_PARTITION_APP"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(224,1): warning C4005: ISOLATIONAWARE_MANIFEST_RESOURCE_ID: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(284): message : см. предыдущее определение "ISOLATIONAWARE_MANIFEST_RESOURCE_ID"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(313,1): warning C4005: ISOLATIONAWARE_NOSTATICIMPORT_MANIFEST_RESOURCE_ID: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(285): message : см. предыдущее определение "ISOLATIONAWARE_NOSTATICIMPORT_MANIFEST_RESOURCE_ID"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(539,1): warning C4005: MAXIMUM_RESERVED_MANIFEST_RESOURCE_ID: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(289): message : см. предыдущее определение "MAXIMUM_RESERVED_MANIFEST_RESOURCE_ID"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(602,1): warning C4005: RT_MANIFEST: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(282): message : см. предыдущее определение "RT_MANIFEST"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1410,1): warning C4005: _WIN32_WINNT: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sdkddkver.h(217): message : см. предыдущее определение "_WIN32_WINNT"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1475,1): warning C4005: IDI_APPLICATION: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11049): message : см. предыдущее определение "IDI_APPLICATION"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1478,1): warning C4005: IDI_HAND: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11050): message : см. предыдущее определение "IDI_HAND"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1481,1): warning C4005: IDI_QUESTION: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11051): message : см. предыдущее определение "IDI_QUESTION"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1484,1): warning C4005: IDI_EXCLAMATION: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11052): message : см. предыдущее определение "IDI_EXCLAMATION"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1487,1): warning C4005: IDI_ASTERISK: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11053): message : см. предыдущее определение "IDI_ASTERISK"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1489,1): warning C4005: IDI_WINLOGO: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11055): message : см. предыдущее определение "IDI_WINLOGO"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1491,1): warning C4005: IDI_SHIELD: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(11058): message : см. предыдущее определение "IDI_SHIELD"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1566,1): warning C4005: HTERROR: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(2569): message : см. предыдущее определение "HTERROR"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1569,1): warning C4005: PWR_FAIL: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(2078): message : см. предыдущее определение "PWR_FAIL"
+C:\Users\Shurpumpel\Desktop\Generator_IP\Generator_IP\resource.h(1570,1): warning C4005: HTTRANSPARENT: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(2570): message : см. предыдущее определение "HTTRANSPARENT"
+  Создание кода...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.rh(475): warning RC4005: 'PWR_FAIL' : redefinition
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.rh(889): warning RC4005: 'HTERROR' : redefinition
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.rh(890): warning RC4005: 'HTTRANSPARENT' : redefinition
+  
+  Generator_IP.vcxproj -> C:\Users\Shurpumpel\Desktop\Generator_IP\Debug\Generator_IP.exe

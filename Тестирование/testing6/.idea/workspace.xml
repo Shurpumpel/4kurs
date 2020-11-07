@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="715c283d-02f7-4d12-9e82-6b3669b07528" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/.idea/Nets3-4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/.vs/Sniffer/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/Form1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/Form1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/IPHeader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/Sniffer.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/Nets3-4/Sniffer/Sniffer/obj/Debug/Sniffer.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Debug/Generator_IP.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Debug/Generator_IP.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Debug/Generator_IP.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP.sdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP.v12.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/Generator_IP.Build.CppClean.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/Generator_IP.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/Generator_IP.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/Generator_IP.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/Generator_IP.tlog/Generator_IP.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/Generator_IP.tlog/cl.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/Generator_IP.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/Generator_IP.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/Generator_IP.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/Generator_IP.tlog/rc.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/Generator_IP.tlog/rc.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/Generator_IP.tlog/rc.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/StdAfx.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/generator.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/main.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/vc120.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Debug/vc120.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Generator_IP.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Generator_IP.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/Source.aps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/StdAfx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/StdAfx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/generator.aps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/generator.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/Generator_IP/Generator_IP/resource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/.vs/MySniffer/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/.vs/MySniffer/v16/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/.vs/MySniffer/v16/ipch/AutoPCH/7a5158f0d7b5e5bc/MAIN.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/Debug/MySniffer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/Debug/MySniffer.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/Debug/MySniffer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/Debug/sniff.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer.sdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer.v12.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.Build.CppClean.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.tlog/MySniffer.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.tlog/cl.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.tlog/link.delete.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.tlog/rc.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.tlog/rc.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/MySniffer.tlog/rc.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/StdAfx.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/main.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/sniffer.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/vc120.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/vc120.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/vc142.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/Debug/vc142.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/MySniffer.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/MySniffer.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/MySniffer.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/StdAfx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/StdAfx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/resource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/sniffer.aps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Nets/project/MySniffer/MySniffer/sniffer.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../abcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bcda" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../work/mydata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../МатМод/Лабы_дистанционные/Лаб1.DOCX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/GMail.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/GMail.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/bin/Release/UnitTestProject2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/bin/Release/UnitTestProject2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/bin/Release/UnitTestProject2.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/bin/Release/UnitTestProject2.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/bin/Release/UnitTestProject2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/bin/Release/UnitTestProject2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/obj/Release/GMail.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/obj/Release/GMail.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/obj/Release/UnitTestProject2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/obj/Release/UnitTestProject2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/obj/Release/UnitTestProject2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/obj/Release/UnitTestProject2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/UnitTestProject2/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/Chromium.ChromeDriver.2.33/Chromium.ChromeDriver.2.33.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/Chromium.ChromeDriver.2.33/content/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/Chromium.ChromeDriver.2.33/tools/install.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/Chromium.ChromeDriver.2.33/tools/uninstall.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/Selenium.WebDriver.3.7.0/Selenium.WebDriver.3.7.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/Selenium.WebDriver.3.7.0/lib/net35/WebDriver.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/Selenium.WebDriver.3.7.0/lib/net35/WebDriver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/Selenium.WebDriver.3.7.0/lib/net40/WebDriver.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/Selenium.WebDriver.3.7.0/lib/net40/WebDriver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/Selenium.WebDriver.3.7.0/lib/net45/WebDriver.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/Selenium.WebDriver.3.7.0/lib/net45/WebDriver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/Selenium.WebDriver.3.7.0/lib/netstandard2.0/WebDriver.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/Selenium.WebDriver.3.7.0/lib/netstandard2.0/WebDriver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/SpecFlow.2.0.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/content/App.config.transform" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/lib/net45/TechTalk.SpecFlow.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/tools/Gherkin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/tools/Microsoft.Build.Utilities.v3.5.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/tools/TechTalk.SpecFlow.Generator.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/tools/TechTalk.SpecFlow.Parser.Compatibility.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/tools/TechTalk.SpecFlow.Parser.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/tools/TechTalk.SpecFlow.Reporting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/tools/TechTalk.SpecFlow.Utils.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/tools/TechTalk.SpecFlow.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/tools/TechTalk.SpecFlow.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/tools/TechTalk.SpecFlow.tasks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Лабораторная рабоат №7/GMailTest/packages/SpecFlow.2.0.0/tools/specflow.exe" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jsKGY4XTAWCVQVYgCEFVQx2m41" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="715c283d-02f7-4d12-9e82-6b3669b07528" name="Default Changelist" comment="" />
+      <created>1604587294830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604587294830</updated>
+      <workItem from="1604587325947" duration="19000" />
+    </task>
+    <servers />
+  </component>
+</project>

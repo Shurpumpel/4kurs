@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\user\Desktop\MySniffer\MySniffer\main.cpp(384,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\MySniffer\MySniffer\main.cpp(431,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\user\Desktop\MySniffer\MySniffer\main.cpp(473,26): warning C4018: <: несоответствие типов со знаком и без знака
+  MySniffer.vcxproj -> C:\Users\user\Desktop\MySniffer\Debug\MySniffer.exe

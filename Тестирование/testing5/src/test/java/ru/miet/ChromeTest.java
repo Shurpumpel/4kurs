@@ -6,6 +6,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 import java.awt.*;
 import java.util.concurrent.TimeUnit;
@@ -21,9 +22,9 @@ public class ChromeTest {
 
 
         //определение пути до драйвера и его настройка
-        System.setProperty("webdriver.chrome.driver", ConfProperties.getProperty("chromedriver"));
+        System.setProperty("webdriver.edge.driver", ConfProperties.getProperty("edgedriver"));
         //создание экземпляра драйвера
-        driver = new ChromeDriver();
+        driver = new EdgeDriver();
         //окно разворачивается на полный экран
         driver.manage().window().maximize();
         //задержка на выполнение теста = 10 сек.
